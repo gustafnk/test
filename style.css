@@ -17,8 +17,8 @@ h-include .h3 {
   line-height: 40px;
 }
 
-/*
-:not(h-include) .more {
+
+:not("h-include") .more {
   display: none;
 }
-*/
+
