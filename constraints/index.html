@@ -1,7 +1,6 @@
 <section>
-  <h1>Constraints</h1>
-  <ul>
-    <li>Mobile is CPU bound</li>
-    <li>Shared runtime (as opposed on the server side)</li>
-  </ul>
+  <h1>Client-side constraints</h1>
+  <p>Server-side web and the client-side web are not equal. On the client-side web, you are much more constrained in what you can do.</p>
+  <p>Historically, the limiting factor has been the network. However, today the limiting factor more and more tends to be the CPU, since we increasingly use mobile devices when browsing the web. Many websites also rely on a lot of JavaScript being executed before they can show any meaningful content.</p>
+  <p>On the server-side, we can partition our systems basically however we want and use different languages and frameworks for the different parts. There is certainly a cost associated with using multiple languages/frameworks at the same time, but this cost is mostly cognitive. The big upside with allowing for multiple languages/frameworks is that the system can be migrated from using tech A to using tech B over a quite long period of time, without the user being aware of it. On the client-side however, the cost of doing the same move would be much higher, since the end-user needs to download/parse/execute a double amount of code for the length of the migration. This means that the amount of time that the migration is active is a cost factor as well. And I suspect that this could be a reason behind why teams often want to rewrite their client-side web applications instead of migrating them.
 </section>
