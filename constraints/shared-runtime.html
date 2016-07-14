@@ -1,8 +1,8 @@
 <section>
-<h1>Shared client runtime</h1>
-<section class="intro">
+<div class="intro">
+  <h1>Shared client runtime</h1>
   <p>Client-side javascript on a page share the same runtime. This implies that having two frameworks on the same page is costly, which in turn leads to low evolvability of the system.</p>
   <p class="more"><a href="/constraints/shared-runtime.html">Read more</a></p>
-</section>
+</div>
 <p>On the server-side, we can partition our systems basically however we want and use different languages and frameworks for the different parts. There is certainly a cost associated with using multiple languages/frameworks at the same time, but this cost is mostly cognitive. The big upside with allowing for multiple languages/frameworks is that the system can be migrated from using tech A to using tech B over a quite long period of time, without the user being aware of it. On the client-side however, the cost of doing the same move would be much higher, since the end-user needs to download/parse/execute a double amount of code for the length of the migration. This means that the amount of time that the migration is active is a cost factor as well. And I suspect that this could be a reason behind why teams often want to rewrite their client-side web applications instead of migrating them.
 </section>
