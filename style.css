@@ -18,7 +18,7 @@ h-include .h3 {
 }
 
 
-:not("h-include") .more {
+*:not("h-include") .more {
   display: none;
 }
 
