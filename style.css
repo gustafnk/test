@@ -2,3 +2,10 @@ body {
  font-family: "Courier New";
 }
   
+h-include .h2 {
+  font-size: 0.9em;
+}
+
+h-include .h3 {
+  font-size: 0.8em;
+}
